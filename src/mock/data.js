@@ -37,25 +37,19 @@ export const projectsData = [
     info2:
       'Includes filters like type of vaccine, price of vaccine, allowed ages for the users to get notified only for the slot that suits them.',
     url: 'https://capriciousrebel.github.io/CovidVaccineTracker/#/',
-    repo: 'https://github.com/CapriciousRebel/CovidVaccineTracker', // if no repo, the button will not show up
+    urltype: 'live',
+    repo: 'https://github.com/CapriciousRebel/CovidVaccineTracker',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'crescendo.png',
+    title: 'CR3SC3NDO',
+    info: 'An automated 3D music visualizer',
+    info2:
+      'Crescendo creates amazing music videos in 2D and 3D (VR) by automatically splitting the instruments comprising a song, and then assigns each instrument to scenery in the video, hence, conveying the role each instrument plays in the song, showing the true essence of the song',
+    url: 'https://vimeo.com/493341739',
+    urltype: 'demo',
+    repo: 'https://github.com/CapriciousRebel/crescendo-frontend',
   },
 ];
 
@@ -63,12 +57,17 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'code.capriciousrebel@gmail.com',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
+    {
+      id: nanoid(),
+      name: 'github',
+      url: 'https://github.com/CapriciousRebel',
+    },
     {
       id: nanoid(),
       name: 'twitter',
@@ -78,11 +77,6 @@ export const footerData = {
       id: nanoid(),
       name: 'linkedin',
       url: 'https://www.linkedin.com/in/capriciousrebel/',
-    },
-    {
-      id: nanoid(),
-      name: 'github',
-      url: 'https://github.com/CapriciousRebel',
     },
   ],
 };
