@@ -72,6 +72,16 @@ const Projects = () => {
                               See Live
                             </a>
                           ),
+                          trailer: (
+                            <a
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="cta-btn cta-btn--hero"
+                              href={url || '#!'}
+                            >
+                              See Trailer
+                            </a>
+                          ),
                           none: null,
                         }[urltype]
                       }

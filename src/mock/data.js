@@ -42,14 +42,35 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'analysisai.png',
+    title: 'Analysis.ai',
+    info: 'A traffic sign recognition application built at Inter IIT Tech Meet 2021 and won the Silver Medal.',
+    info2:
+      'Analyis.ai is designed to help an analyst build, augment and analyse datasets for traffic sign recognition.',
+    url: 'https://drive.google.com/file/d/1gVdLHIEAb1FLye44VGJ-np3y0YUNrqzB/view?usp=sharing',
+    urltype: 'demo',
+    repo: 'https://github.com/sdslabs/BOSCH-TRAFFIC-SIGN-RECOGNITION-frontend',
+  },
+  {
+    id: nanoid(),
     img: 'crescendo.png',
     title: 'CR3SC3NDO',
-    info: 'An automated 3D music visualizer',
+    info: 'An automated 3D music visualizer created at Inout 7.0',
     info2:
       'Crescendo creates amazing music videos in 2D and 3D (VR) by automatically splitting the instruments comprising a song, and then assigns each instrument to scenery in the video, hence, conveying the role each instrument plays in the song, showing the true essence of the song',
     url: 'https://vimeo.com/493341739',
     urltype: 'demo',
     repo: 'https://github.com/CapriciousRebel/crescendo-frontend',
+  },
+  {
+    id: nanoid(),
+    img: 'outrun.jpg',
+    title: 'Outrun Chase',
+    info: 'Outrun Chase is a retro-wave outrun themed racing/shooting game built at Hackathon HAB-59, continued under SDSLabs.',
+    info2: '',
+    url: 'https://www.youtube.com/watch?v=5Tt7xaWk7xc',
+    urltype: 'trailer',
+    repo: '',
   },
 ];
 
