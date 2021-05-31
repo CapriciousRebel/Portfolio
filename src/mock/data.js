@@ -72,6 +72,16 @@ export const projectsData = [
     urltype: 'trailer',
     repo: '',
   },
+  {
+    id: nanoid(),
+    img: 'studyportal.png',
+    title: 'StudyPortal',
+    info: 'StudyPortal is the knowledge hub of IITRoorkee, through which one can share open courseware files, videos, presentations, etc, developed by SDSLabs.',
+    info2: '',
+    url: 'https://study.sdslabs.co/',
+    urltype: 'live',
+    repo: '',
+  },
 ];
 
 // CONTACT DATA
